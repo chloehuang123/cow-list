@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Cow = ({ cow }) => {
+const Cow = ({ cow, handleCowClick }) => {
   return (
-    <div>
+    <div onClick={handleCowClick}>
       {cow.name}
     </div>
   );
